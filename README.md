@@ -3,6 +3,13 @@
 Código demo en C de ARDUINO para el consumo de la API de reconocimiento (Proyecto Horus)
 
 El Proyecto Horus consiste en una API REST que permite de forma simple identificar imagenes via redes neuronales.
+# De que trata este proyecto
+
+Esta es una nueva demo de utilización de las APIs de Proyecto Horus las cuales son combinadas con un Shield Arduino de nombre Dfplayer para poder enumerar en voz alta los objetos puestos delante de la cámara de una ESP32-Cam.
+
+Si bien este proyecto es simple, puede ser complementado con ultrasónicos, LIDAR o visión stereo para entregar más información como ser la distancia del objeto. Otra de las mejoras que se pueden implementar es la utilización de los servicios en nube de TTS (Text to Speech) y nombrar en voz alta texto auto generado por las  funciones de OCR (Optical Character Recognition) de Horus o bien FaceID e incluso ImageID.
+
+La combinación de todos estos servicios de reconocimiento de Horus terminan en un dispositivo extremadamente económico y que serviría de ayuda a personas no videntes a desenvolverse con mayor naturalidad en su entorno, incluso a reconocer personas u objetos (cómo ser tarjetas de crédito o billetes) sin ayuda de terceros.
 
 # Como cargar el codigo en la ESP32-CAM
 
